@@ -87,4 +87,4 @@ await page.screenshot(
 )
 ```
 
-Each Scenario's key is mapped to `class: Page` method with `puppeteer`.
+Each Scenario's key is mapped to [`class: Page`](https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#class-page) method with `puppeteer`.
