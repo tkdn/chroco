@@ -44,10 +44,10 @@ Configure should be `Object`.
 |parms|detail|type|val|required|
 |-----|------|----|---|--------|
 |`options`|refs: [puppeteer launch options](https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#puppeteerlaunchoptions)|`Object`| - |none|
-|`options.logLevel`|Chroco original options|`Array.<string>|string`|`['info', 'warn', 'error']`|none|
+|`options.logLevel`|Chroco original options| Array.\<string\>\|string | `['info', 'warn', 'error']`|none|
 |emulateOptions|refs: [puppeteer emulate options](https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#pageemulateoptions)|`Object`| - |none|
-|receivers|Your Customized Receiver, [: sample](./sample/search.js)|`Array.<Function>`| - | none |
-|scenarios|Your commandable, iterable `Array`|`Array.<Object.<Function>.<Array|Object|string>`| required |
+|receivers|Your Customized Receiver, [: sample](./sample/search.js)| Array.\<Function\> | - | none |
+|scenarios|Your commandable, iterable `Array`| Array.\<Object.\<Function\>.\<Array\|Object\|string\>| - |required|
 
 
 #### Scenarios <Array>
