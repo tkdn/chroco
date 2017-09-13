@@ -10,7 +10,7 @@
   "main": "index.js",
   "repository": "git@github.com:tkdn/chroco.git",
   "bin": {
-    "chorco": "bin/chroco"
+    "chroco": "bin/chroco"
   },
   "engines": {
     "node": ">=7"
