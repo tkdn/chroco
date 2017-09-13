@@ -1,0 +1,46 @@
+{
+  "name": "chroco",
+  "version": "0.0.1-beta",
+  "description": "chroco operates `puppeteer` with commandable, pluggable settings.",
+  "author": "tkdn <tkdnation@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint **/*.js"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:tkdn/chroco.git",
+  "bin": {
+    "chorco": "bin/chroco"
+  },
+  "engines": {
+    "node": ">=7"
+  },
+  "files": [
+    "LICENSE",
+    "bin",
+    "internal",
+    "lib"
+  ],
+  "homepage": "https://github.com/tkdn/chroco",
+  "bugs": "https://github.com/tkdn/chroco/issues",
+  "keywords": [
+    "puppeteer",
+    "headless",
+    "chrome"
+  ],
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "js-yaml": "^3.10.0",
+    "mime-types": "^2.1.17",
+    "puppeteer": "^0.10.2",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

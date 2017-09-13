@@ -1,0 +1,19 @@
+---
+options:
+  headless: false
+  logLevel:
+  - info
+  - error
+emulateOptions:
+  device: iPhone 6
+scenarios:
+- goto:
+  - https://www.google.com/
+  - waitUntil: load
+- focus: input[name=q]
+- type: chroco
+- press: Enter
+- waitForNavigation: ''
+- screenshot:
+    path: temp/screenshot.png
+    fullPage: true
