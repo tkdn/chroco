@@ -37,7 +37,7 @@ $ chroco -c .chroco.yml
 refs: [.chrocorc](./sample/.chrocorc) or [.chrocorc.yml](./sample/.chrocorc.yml)  
 Default file path is \`.chrocorc\`.
 
-### Chroco Configure <Object>
+### Chroco Configure
 
 Configure should be `Object`.
 
@@ -55,7 +55,7 @@ Configure should be `Object`.
 - `scenarios[n].<Function>` is puppeteer's `class: Page` method.
 - `scenarios[n].<Function>.<Array|Object|string>` is `params` for above method.
 
-```json
+```js
 {
   scenarios: [
     goto: [
