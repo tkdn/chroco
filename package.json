@@ -1,6 +1,6 @@
 {
   "name": "chroco",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1-beta.2",
   "description": "chroco operates `puppeteer` with commandable, pluggable settings.",
   "author": "tkdn <tkdnation@gmail.com>",
   "license": "MIT",
