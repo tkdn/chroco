@@ -1,6 +1,6 @@
 {
   "name": "chroco",
-  "version": "0.0.1-beta.2",
+  "version": "0.0.1-beta.3",
   "description": "chroco operates `puppeteer` with commandable, pluggable settings.",
   "author": "tkdn <tkdnation@gmail.com>",
   "license": "MIT",
@@ -8,7 +8,10 @@
     "lint": "eslint **/*.js"
   },
   "main": "index.js",
-  "repository": "git@github.com:tkdn/chroco.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tkdn/chroco.git"
+  },
   "bin": {
     "chroco": "bin/chroco"
   },
@@ -31,15 +34,15 @@
   "dependencies": {
     "chalk": "^2.1.0",
     "js-yaml": "^3.10.0",
-    "mime": "^2.0.1",
-    "puppeteer": "^0.10.2",
-    "yargs": "^8.0.2"
+    "mime": "^2.0.3",
+    "puppeteer": "^0.11.0",
+    "yargs": "^9.0.1"
   },
   "devDependencies": {
-    "eslint": "^4.6.1",
+    "eslint": "^4.8.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-node": "^5.2.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1"
   }
